@@ -1,0 +1,60 @@
+@font-face {
+    font-family: hy ;
+    src: url(./Hugh\ is\ Life\ Personal\ Use\ .ttf);
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    height: 100%;
+    width: 100%;
+}
+
+#MAIN{
+
+    height: 100%;
+    width: 100%;
+background-image: url(./v2osk-1Z2niiBPg5A-unsplash.jpg);
+background-size: cover;
+background-position: center;;
+
+}
+#MAIN button{
+   padding: 12px 24px;
+  font-size: 18px;
+  color: white;
+  background: rgba(255, 252, 252, 0.4); /* transparent bg */
+  border: none;
+  border-radius: 8px;
+  backdrop-filter: blur(6px); /* background ko blur karega */
+  -webkit-backdrop-filter: blur(6px); /* Safari support */
+  cursor: pointer;
+  position: absolute;
+    top: 80%;
+    left: 50%;
+   
+
+}
+#MAIN button:hover{
+    background-color: #c7b3da;}
+
+    
+
+
+    h1{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 110px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    text-align: center;
+    font-family: hy;
+    font-weight: 110;
+}
